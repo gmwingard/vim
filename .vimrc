@@ -16,7 +16,6 @@ set showcmd                                   " show command in bottom bar
 set wrap linebreak nolist
 set breakindent
 set autoread
-set showmatch                                 " hightlights matching [{()}]
 set backspace=indent,eol,start                " Allows backspace to work like other editors in insert mode
 
 " JAVASCRIPT LIBRARIES SYNTAX
@@ -32,7 +31,7 @@ set wildmode=full                             " set wildmenu to be more like zsh
 set history=200                               " set command line history to 200 commands instead of 20
 
 " MOVEMENT
-"set mouse=a                                   " allow the mouse to be used in all modes
+set mouse=a                                   " allow the mouse to be used in all modes
 nnoremap j gj
 nnoremap gj j
 nnoremap k gk
@@ -40,6 +39,9 @@ nnoremap gk k
 
 " HTML STUFF
 let g:closetab_filenames = "*.html,*.xhtml,*.phtml"
+
+" VIM-AIRLINE
+set laststatus=2                              " display the airline toolbar on all windows (regardless of split)
 
 " SILVER SEARCHER
 if executable('ag')
