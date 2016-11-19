@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VIM_HOME=~/Tools/vim
+VIM_HOME=~/.config/vim
 VIMRC=.vimrc
 VUNDLE=.vimvundle.vim
 
