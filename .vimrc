@@ -3,7 +3,8 @@ source ~/.vimvundle.vim
 
 " COLOR SCHEME
 syntax enable
-colorscheme 256-grayvim
+set background=dark
+colorscheme solarized
 
 " FORMATTING
 set tabstop=2                                 " tab is 2 spaces
