@@ -7,7 +7,7 @@ VUNDLE=.vimvundle.vim
 if [ -d $VIM_HOME ]; then
   printf "Do nothing here we have a vim home already.\n"
 else
-  printf "Do something we don't have a vim home. \n"
+  printf "Do something we don't have a vim home.\n"
   git clone https://github.com/parker789/vim $VIM_HOME
   if [ -f ~/$VIMRC ]; then
     printf "Backup old vimrc.\n"
@@ -18,8 +18,8 @@ else
     printf "Backup old .vimvundle.vim.\n"
     mv ~/$VUNDLE $VIM_HOME/$VUNDLE.bck
   fi
-  # Now that both files are backed up (if the existed)
-  # Let's create the symlinks to the one form our repo
+  # Now that both files are backed up (if they existed)
+  # Let's create the symlinks to the one from our repo
   ln -s $VIM_HOME/$VIMRC ~/$VIMRC
   ln -s $VIM_HOME/$VUNDLE ~/$VUNDLE
 fi
