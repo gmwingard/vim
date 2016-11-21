@@ -8,7 +8,7 @@ if [ -d $VIM_HOME ]; then
   printf "Do nothing here we have a vim home already.\n"
 else
   printf "Do something we don't have a vim home. \n"
-  git clone https://github.com/gmwingard/vim $VIM_HOME
+  git clone https://github.com/parker789/vim $VIM_HOME
   if [ -f ~/$VIMRC ]; then
     printf "Backup old vimrc.\n"
     mv ~/$VIMRC $VIM_HOME/$VIMRC.bck 
