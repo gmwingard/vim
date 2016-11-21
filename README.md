@@ -14,11 +14,11 @@ Then install process is really simple.  Just run the command below:
 
 #### via curl
 ```shell
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/gmwingard/vim/master/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/parker789/vim/master/install.sh)"
 ```
 
 #### via wget
 ```shell
-sh -c "$(wget https://raw.githubusercontent.com/gmwingard/vim/master/install.sh)"
+sh -c "$(wget https://raw.githubusercontent.com/parker789/vim/master/install.sh)"
 ```
 
